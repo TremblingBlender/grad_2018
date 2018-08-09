@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Portfolio Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+<style>
+   
+    
+    .container-fixed-fluid {
+        height: auto;
+        background-color: #41447b;
+    }
+    
+    .navbar{
+    padding: 1%;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #ffffff;
+    font-size 1.2em;
+    border: 0;
+    background: transparent;
+    }
+    
+  .nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif, bold;
+    color: #fde1b4;
+    }
+    
+    #image {
+        padding: 7% 0 0 0;
+        height: 100%;
+        background-color: #41447b;
+    }
+    
+    #info {
+        padding: 7% 0 5% 0;
+        height: 100%;
+        background-color: #41447b;
+    }
+    
+    #button {
+        margin: 15% 0 15% 0;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+    }
+    
+    footer {
+        width: 100%;
+        height: 10vh;
+        background-color: gray;
+    }
+    
+    #name ,#title {
+        padding: 0 5%;
+        font-family: 'Josefin Sans', sans-serif, bold;
+        color:#fde1b4;
+    }
+    
+    #details {
+        padding: 0 5%;
+        margin-top: 5%;
+        font-family: 'Josefin Sans', sans-serif, light;
+        font-size: 15pt;
+        color:#fde1b4;
+    }
+
+    
+    .row {
+        padding: 0;
+        height: 100%;
+        margin: 0;
+        background-color: #41447b;
+    }
+
+    
+    #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+    
+    
+    a{
+        color: #ffffff;
+    }
+    
+    #social{
+        text-align: center;
+    }
+    
+</style>
+    
+    
+</head>
+<body>
+    
+    
+    
+    
+    <div class="container-fixed-fluid" style="background-color:#41447b">
+        
+        
+        
+            <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation"><span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button>
+                
+            </div>
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../index.html#about">ABOUT</a></li>
+                    <li><a href="../index.html#grads">GRADS</a></li>
+                    <li><a href="../index.html#follow">FOLLOW US</a></li>
+                    <li><a href="#">RSVP</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+        <div class="row">
+            <div id="image" class="col-md-5" style="color:white;text-align:center">
+                <img src="../images/catherine.jpg" width="275"/>
+            </div>
+        
+        
+
+            <div id="info" class="col-md-7" style="background-color:#41447b">
+                <h1 id="name">Catherine Chen</h1>
+                <h2 id="title">UI Design &amp; Photographer</h2>
+                <p id="details" clas="col-md-10" style="word-spacing:2pt">I'm Catherine Chen, a UI designer with a passion in app design, photography and the arts. I hope to be catchen' your attention!</p>
+
+                <div id="button">
+                    <a href="http://www.catchen.ca/">
+                        <button type="button" class="btn btn-lg" style="text-align:center;background-color:#f97c7c;width:30%">WEBSITE</button></a>
+                </div>
+              <div id="social">
+                 <!--  <a href="https://twitter.com/CJVeloso_"><img src="twitter.png" width="50"/></a>
+                  <!-- <a href="https://www.facebook.com/AyaCagandahan/"><img src="facebook.png" width="50"/></a>-->
+                    <a href="https://www.linkedin.com/in/catherine-chen-9b14ab61/"><img src="linkedin.png" width="50"/></a>
+                    <a href="https://www.instagram.com/catchen_design/"><img src="instagram.png" width="50"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>

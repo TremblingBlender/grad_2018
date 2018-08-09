@@ -1,0 +1,260 @@
+html{
+    height: auto;
+    width:100%;
+    background: linear-gradient(#FDE1B4, #F97C7C);
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    overflow-x:hidden;
+    font-family: 'Josefin Sans', 'sans-serif';
+}
+
+p.thin {
+  font-weight: 100;
+}
+p.light {
+  font-weight: 300;
+}
+p.regular {
+  font-weight: 400;
+}
+p.bold {
+  font-weight: 600;
+}
+p.extraBold {
+  font-weight: 700;
+}
+p.black {
+  font-weight: 800;
+}
+p.extraBlack {
+  font-weight: 900;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #ffffff;
+    font-size 1.2em;
+    border: 0;
+    background: transparent;
+}
+
+.navbar-fixed-top { 
+    position: absolute;
+}
+
+.navbar-right{
+    margin-right: 30px;
+    font-size: 15pt;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #F97C7C;
+    padding-right: 35px;
+}
+
+#intro{
+    text-align: center;
+    color: #41447B;
+}
+
+#rsvp{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#wrapper{
+    align-content: center;
+}
+
+#title{
+    margin-left: 20%;
+}
+
+#about{
+    background-color: #41447B;
+    color: #FDE1B4;
+}
+
+#about-body{
+    margin-left: 19%;
+    margin-right: 2px;
+    width: 100%;
+}
+
+#home{
+    height: 100%;
+    background: linear-gradient(#FDE1B4, #F97C7C);
+}
+
+#about-text{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-size: 26pt;
+}
+
+
+
+#title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    letter-spacing: .3em;
+}
+
+#wwd{
+    font-size: 36pt;
+    
+}
+
+#background{
+    background: transparent;
+}
+
+#logo{
+    text-align: center;
+    
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+#location{
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+#info{
+     color: #41447B;
+}
+
+#map {
+   width: 100%;
+   height: 500px;
+   background-color: #41447B;
+    clear: both;
+ }
+
+
+
+#whatwedo{
+    text-align: center;
+}
+
+#grads{
+    text-align: center;
+    background-color: #41447B;
+    color: #FDE1B4;
+}
+
+
+
+.slider-wrap {
+    position: relative;
+    margin: 50px auto;
+    width: 700px;
+}
+.slider {
+    position: relative;
+    width: 650px;
+    margin: auto;
+}
+.carousel {
+    margin: 0;
+    padding: 0;
+}
+.carousel li {
+    list-style: none;
+    text-align: center;
+}
+    
+/* Change the width and height here */
+.carousel li span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+    height: 200px;
+    background: black;
+}
+.slider-arrow {
+    position: absolute;
+    top: 40px;
+    width: 20px;
+    height: 20px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.sa-left {
+    left: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+.sa-right {
+    right: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#redbutton{
+    text-align:center;
+    background-color:#f97c7c;
+    height: 5%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#bluebutton{
+    text-align:center;
+    background-color:#41447B;
+    
+    height: 5%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+#joinus{
+    margin-left: 27%;
+    font-weight: 100;
+    text-align: left;
+}
+
+#jointitle{
+    text-align: left;
+    margin-left: 1%;
+}
+
+#follow{
+    text-align: center;
+    background-color: #41447B;
+    color: #FDE1B4;
+}
